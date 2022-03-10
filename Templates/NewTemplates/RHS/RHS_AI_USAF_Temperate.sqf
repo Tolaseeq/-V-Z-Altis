@@ -29,7 +29,7 @@
 ["vehiclesLightArmed",["b_afougf_yt_BRDM2", "b_afougf_yt_btr70", "b_afougf_yt_btr80"]] call _fnc_saveToTemplate;
 ["vehiclesTrucks", ["b_afougf_yt_zil131", "b_afougf_yt_Ural_Base"]] call _fnc_saveToTemplate;
 ["vehiclesCargoTrucks", ["b_afougf_yt_Ural_Open_Flat", "b_afougf_yt_Ural_Flat"]] call _fnc_saveToTemplate;
-["vehiclesAmmoTrucks", []] call _fnc_saveToTemplate;
+["vehiclesAmmoTrucks", ["b_afougf_yt_gaz66_ammo"]] call _fnc_saveToTemplate;
 ["vehiclesRepairTrucks", ["b_afougf_yt_gaz66_ammo"]] call _fnc_saveToTemplate;
 ["vehiclesFuelTrucks", ["b_afougf_yt_Ural_fuel"]] call _fnc_saveToTemplate;
 ["vehiclesMedical", ["b_afougf_yt_gaz66_ap2"]] call _fnc_saveToTemplate;
@@ -37,7 +37,7 @@
 ["vehiclesTanks", ["b_afougf_yt_t72bb", "b_afougf_yt_t80bv"]] call _fnc_saveToTemplate;
 ["vehiclesAA", ["b_afougf_yt_zsu234_aa"]] call _fnc_saveToTemplate;
 ["vehiclesLightAPCs", ["b_afougf_yt_bmd1", "b_afougf_yt_bmd2", "b_afougf_yt_bmp1p", "b_afougf_yt_bmp1", "b_afougf_yt_bmp2d"]] call _fnc_saveToTemplate;			//this line determines light APCs
-["vehiclesIFVs", []] call _fnc_saveToTemplate;				//this line determines IFVs
+["vehiclesIFVs", ["b_afougf_yt_bmd1", "b_afougf_yt_bmd2", "b_afougf_yt_bmp1p", "b_afougf_yt_bmp1", "b_afougf_yt_bmp2d", "b_afougf_yt_bmp2"]] call _fnc_saveToTemplate;				//this line determines IFVs
 ["vehiclesSam", ["",""]] call _fnc_saveToTemplate; 	//this line determines SAM systems, order: radar, SAM
 
 
@@ -49,8 +49,8 @@
 ["vehiclesPlanesAA", ["b_afougf_mig29sm"]] call _fnc_saveToTemplate;
 ["vehiclesPlanesTransport", ["b_afougf_an2", "b_afougf_an2", "CUP_B_C130J_USMC"]] call _fnc_saveToTemplate;
 
-["vehiclesHelisLight", ["b_afougf_Mi8MTV3_FAB"]] call _fnc_saveToTemplate;
-["vehiclesHelisTransport", ["b_afougf_Mi8MTV3_Cargo", "b_afougf_Mi8MTV3_UPK23", "b_afougf_Mi8MTV3_FAB", "b_afougf_Mi8MTV3_Evac200"]] call _fnc_saveToTemplate;
+["vehiclesHelisLight", ["b_afougf_Mi8MTV3_Evac200"]] call _fnc_saveToTemplate;
+["vehiclesHelisTransport", ["b_afougf_Mi8MTV3_Cargo", "b_afougf_Mi8MTV3_UPK23", "b_afougf_Mi8MTV3_FAB"]] call _fnc_saveToTemplate;
 ["vehiclesHelisAttack", ["b_afougf_Mi24V_UPK23", "b_afougf_Mi24V_FAB", "b_afougf_Mi24V_AT"]] call _fnc_saveToTemplate;
 
 ["vehiclesArtillery", [
